@@ -55,12 +55,10 @@ const Navbar = () => {
                         </NavItem>
                     </Col>
 
-                    <Col md={5} style={{ marginTop: '30px' }}>    {/* Imag */}
-                        <NavItem >
-                            <Image src={SW} href='http://localhost:3000/' alt="Star Wars" width="200px" height="100px" />
-                        </NavItem>
+                    <Col md={6} className="d-flex justify-content-center align-items-center" style={{marginTop: '30px'}}>
+                        <img src={SW} href='http://localhost:3000/' alt="Star Wars" width="200px" height="100px" />
                     </Col>
-                    <Col md={4} className="d-flex justify-content-top" style={{ height: '40px', alignContent: 'center', marginTop: '30px', justifyContent: 'right' }}>
+                    <Col md={3} className="d-flex justify-content-top" style={{ height: '40px', alignContent: 'center', marginTop: '30px', justifyContent: 'right' }}>
                         <div style={{ borderBlockColor: 'white' }}> {/* Search */}
                             {btnsearch && (
                                 <Button variant="outline" onClick={searchClick} style={{ color: 'white' }}>
@@ -114,7 +112,7 @@ const Navbar = () => {
                 </Row>
                 <div>
                     <div style={{ display: 'inline-flex' }}>
-                        <div style={{ marginLeft: '20px', padding: '20px' }}>
+                        <div style={{ marginLeft: '100px', padding: '20px' }}>
                             <a href="https://www.starwars.com/news" className="text-white" style={{ textDecoration: 'none' }}>
                                 NEWS + FEATURES
                             </a>
