@@ -1,5 +1,5 @@
 import NavbarSW from './Componentes/navbarSW';
-
+import Carrusel from './Componentes/carrusel';
 import './App.css';
 
 function App() {
