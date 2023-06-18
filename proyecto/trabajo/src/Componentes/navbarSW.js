@@ -41,7 +41,7 @@ const Navbar = () => {
                                 <NavLink href="https://www.youtube.com/user/starwars" style={{ padding: '5px' }}>
                                     <IoLogoYoutube className="text-white" style={{ fontSize: '24px' }} />
                                 </NavLink>
-                                <NavLink href="href='https://twitter.com/starwars'" style={{ padding: '5px' }}>
+                                <NavLink href="https://twitter.com/starwars" style={{ padding: '5px' }}>
                                     <IoLogoTwitter className="text-white" style={{ fontSize: '24px' }} />
                                 </NavLink>
                                 <NavLink href="/home" style={{ padding: '5px' }}>
