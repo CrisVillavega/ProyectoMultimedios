@@ -1,9 +1,16 @@
-import NavbarSW from './Componentes/navbarSW';
 import './App.css';
-
+import Navbar from './Componentes/navbarSW';
+import Carrusel from './Componentes/carrusel';
 function App() {
   return (
-    <header><NavbarSW></NavbarSW></header>
+    <div className="App">
+      <header>
+        <Navbar></Navbar>
+      </header>
+      <Carrusel></Carrusel>
+      <p>Hola</p>
+    </div>
+
   );
 }
 
