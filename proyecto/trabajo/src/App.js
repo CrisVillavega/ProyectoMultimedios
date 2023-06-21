@@ -9,8 +9,14 @@ function App() {
       <header>
         <Navbar></Navbar>
       </header>
-      <Carrusel></Carrusel>
-      <Footer></Footer>
+      <main>
+        *<Carrusel></Carrusel>
+      </main>
+
+      <footer>
+        <Footer></Footer>
+      </footer>
+
     </div>
 
   );
