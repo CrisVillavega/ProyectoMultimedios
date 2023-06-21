@@ -5,12 +5,12 @@ import Carrusel from './Componentes/carrusel';
 import Footer from './Componentes/Footer';
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{position: "relative"}}>
       <header>
         <Navbar></Navbar>
       </header>
       <main>
-        *<Carrusel></Carrusel>
+        <Carrusel></Carrusel>
       </main>
 
       <footer>

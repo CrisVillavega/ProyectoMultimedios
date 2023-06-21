@@ -6,29 +6,39 @@ const Footer = () => {
   return (
 
     <footer style={{ position: 'fixed', left: 0, bottom: 0, width: '100%', backgroundColor: 'black', textAlign: 'center', color: 'white' }}>
-      <p style={{ position: 'absolute', top: 0, width: '100%', padding: 'px' }}>More From Star Wars</p>
+      <p style={{ position: 'absolute', top: 0, width: '100%', padding: 'px', marginTop: '20px' }}>More From Star Wars</p>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', padding: '50px' }}>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '10px' }}>
           <FaFacebook size={20} style={{ marginRight: '30px' }} />
           <FaInstagram size={20} style={{ marginRight: '30px' }} />
           <FaTwitter size={20} style={{ marginRight: '30px' }} />
           <FaYoutube size={20} style={{ marginRight: '30px' }} />
-          <bottom size={20} style={{ marginRight: '30px', fontFamily: 'fantasy'}}>|  Kids</bottom>
+          <p className="m-0 ml-2 text-white">|</p>
+          <button href="https://www.starwarskids.com/" style={{ borderRadius: '50px', marginLeft: '20px', height: '19px', width: '40px', }}><h5 style={{ fontSize: '14px', fontFamily: 'fantasy' }}>KIDS</h5></button>
 
         </div>
          <br></br>
          <br></br>
         <div style={{ marginTop: 'auto' }}>
           <p>TM & © Lucasfilm Ltd. All Rights Reserved</p>
-          <a href="#https://www.starwars.com/ "><font COLOR="white">Terms of Use |</font></a>
-          <a href="#https://www.starwars.com/ "> <font COLOR="white">Additional Content Information |</font></a>
-          <a href="#https://www.starwars.com/ "> <font COLOR="white">Privacy Policy |</font></a>
-          <a href="#https://www.starwars.com/ "> <font COLOR="white">Children's Online Privacy Policy |</font></a>
-          <a href="#https://www.starwars.com/ "> <font COLOR="white">Your California Privacy Rights |</font></a>
-          <a href="#https://www.starwars.com/ "><font COLOR="white">Star Wars at shopDisney |</font></a>
-          <a href="#https://www.starwars.com/ "><font COLOR="white">Star Wars Helpdesk |</font></a>
-          <a href="#https://www.starwars.com/ "><font COLOR="white">Interest-Based Ads |</font></a>
-          <a href="#https://www.starwars.com/ "><font COLOR="white">Do Not Sell My Personal Information</font></a>
+          <a href="#https://www.starwars.com/ " style={{ color: 'white', fontSize: '12px', marginRight: '10px', marginLeft: '90px'  }}><font COLOR="white">Terms of Use</font></a>
+          <font margin= '20px'>|</font>
+          <a href="#https://www.starwars.com/ " style={{ color: 'white', fontSize: '12px', margin: '10px'  }}> <font COLOR="white"> Additional Content Information </font> </a>
+          <font margin= '20px'>|</font>
+          <a href="#https://www.starwars.com/ " style={{ color: 'white', fontSize: '12px', margin: '10px'  }}> <font COLOR="white"> Privacy Policy  </font></a>
+          <font margin= '20px'>|</font>
+          <a href="#https://www.starwars.com/ " style={{ color: 'white', fontSize: '12px', margin: '10px'  }}> <font COLOR="white"> Children's Online Privacy Policy  </font></a>
+          <font margin= '20px'>|</font>
+          <a href="#https://www.starwars.com/ " style={{ color: 'white', fontSize: '12px', margin: '10px'  }}> <font COLOR="white"> Your California Privacy Rights   </font></a>
+          <font margin= '20px'>|</font>
+          <a href="#https://www.starwars.com/ " style={{ color: 'white', fontSize: '12px', margin: '10px'  }}><font COLOR="white">  Star Wars at shopDisney   </font></a>
+          <font margin= '20px'>|</font>
+          <a href="#https://www.starwars.com/ " style={{ color: 'white', fontSize: '12px', margin: '10px'  }}><font COLOR="white">  Star Wars Helpdesk  </font></a>
+          <font margin= '20px'>|</font>
+          <a href="#https://www.starwars.com/ " style={{ color: 'white', fontSize: '12px', margin: '10px'}}><font COLOR="white">  Interest-Based Ads  </font></a>
+          <font marginLeft= '20px' marginRight= '90px' >|</font>
+          <br/>
+          <a href="#https://www.starwars.com/ " style={{ color: 'white', fontSize: '12px', margin: '10px'  }}><font COLOR="white">Do Not Sell My Personal Information</font></a>
         </div>
       </div>
     </footer>
