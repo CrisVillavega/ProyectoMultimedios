@@ -2,6 +2,7 @@
 import './App.css';
 import Navbar from './Componentes/navbarSW';
 import Carrusel from './Componentes/carrusel';
+import Footer from './Componentes/Footer';
 function App() {
   return (
     <div className="App">
@@ -9,7 +10,7 @@ function App() {
         <Navbar></Navbar>
       </header>
       <Carrusel></Carrusel>
-      <p>Hola</p>
+      <Footer></Footer>
     </div>
 
   );
