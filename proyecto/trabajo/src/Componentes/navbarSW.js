@@ -4,6 +4,7 @@ import { Nav, NavItem, NavLink, FormControl, Form, Button, Image, Container, Row
 import { IoLogoInstagram, IoLogoTwitter, IoLogoYoutube, IoLogoFacebook, IoMdPerson, IoMdSearch } from 'react-icons/io';
 import SW from './SWb.png';
 import SWr from './SWr.png';
+import ComponenteConMusica from './sonido/musica';
 const Navbar = () => {
     const [search, setsearch] = useState(false);
     const [btnsearch, setbtnsearch] = useState(true);
@@ -59,6 +60,7 @@ const Navbar = () => {
                         <img src={SW} href='http://localhost:3000/' alt="Star Wars" width="200px" height="100px" />
                     </Col>
                     <Col md={3} className="d-flex justify-content-top" style={{ height: '40px', alignContent: 'center', marginTop: '30px', justifyContent: 'right' }}>
+                        
                         <div style={{ borderBlockColor: 'white' }}> {/* Search */}
                             {btnsearch && (
                                 <Button variant="outline" onClick={searchClick} style={{ color: 'white' }}>
@@ -108,6 +110,7 @@ const Navbar = () => {
                                 </Modal.Body>
                             </Modal>
                         </div>
+                        <ComponenteConMusica></ComponenteConMusica>
                     </Col>
                 </Row>
                 <div>

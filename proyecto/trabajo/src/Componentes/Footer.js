@@ -5,10 +5,12 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
   return (
 
-    <footer style={{ position: 'fixed', left: 0, bottom: 0, width: '100%', backgroundColor: 'black', textAlign: 'center', color: 'white' }}>
-      <p style={{ position: 'absolute', top: 0, width: '100%', padding: 'px', marginTop: '20px' }}>More From Star Wars</p>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', padding: '50px' }}>
+    <footer style={{ left: 0, bottom: 0, width: '100%', backgroundColor: 'black', textAlign: 'center', color: 'white' }}>
+      <p style={{ position: 'relative', top: 0, width: '100%', paddingTop: '40px', marginTop: '0px' }}>More From Star Wars</p>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', padding: '20px' }}>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '10px' }}>
+      
+
           <FaFacebook size={20} style={{ marginRight: '30px' }} />
           <FaInstagram size={20} style={{ marginRight: '30px' }} />
           <FaTwitter size={20} style={{ marginRight: '30px' }} />
@@ -20,6 +22,7 @@ const Footer = () => {
          <br></br>
          <br></br>
         <div style={{ marginTop: 'auto' }}>
+          
           <p>TM & © Lucasfilm Ltd. All Rights Reserved</p>
           <a href="#https://www.starwars.com/ " style={{ color: 'white', fontSize: '12px', marginRight: '10px', marginLeft: '90px'  }}><font COLOR="white">Terms of Use</font></a>
           <font margin= '20px'>|</font>

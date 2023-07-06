@@ -26,20 +26,20 @@ const Carrusel = () => {
           />
           <div className="carousel-texto">
             <BootstrapCarousel.Caption>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
             </BootstrapCarousel.Caption>
-            </div>
-            <div className="carousel-buttons">
-            <Button class="botonAm" >
-                READ MORE
-              </Button>
-              
-              <Button class="botonNe" >
-                GET TICKETS
-              </Button>
-              
-            </div>
-            
+          </div>
+          <div className="carousel-buttons">
+            <Button variant="warning" className="rounded-pill">
+              READ MORE
+            </Button>
+
+            <Button variant="dark" className="rounded-pill text-white" >
+              GET TICKETS
+            </Button>
+
+          </div>
+
         </BootstrapCarousel.Item>
 
         <BootstrapCarousel.Item>
@@ -48,23 +48,23 @@ const Carrusel = () => {
             src="https://i.blogs.es/0b14da/sw-outlaws-cronologia/1366_2000.jpeg"
             alt="Imagen 2"
           />
-           <div className="carousel-texto2">
+          <div className="carousel-texto2">
             <BootstrapCarousel.Caption>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
             </BootstrapCarousel.Caption>
-            </div>
-          
-            <div className="carousel-buttons2">
-            <Button class="botonAm" >
-                WHATCH NOW
-              </Button>
-              
-              <Button class="botonNe" >
-                EXPLORE
-              </Button>
-              
-            </div>
-          
+          </div>
+
+          <div className="carousel-buttons2">
+            <Button variant="warning" className="rounded-pill" >
+              WHATCH NOW
+            </Button>
+
+            <Button variant="dark" className="rounded-pill text-white" >
+              EXPLORE
+            </Button>
+
+          </div>
+
         </BootstrapCarousel.Item>
 
         <BootstrapCarousel.Item>
@@ -73,43 +73,45 @@ const Carrusel = () => {
             src="https://pbs.twimg.com/media/FtDQs8qWcAIGgpA?format=jpg&name=large"
             alt="Imagen 3"
           />
-           <div className="carousel-texto2">
+          <div className="carousel-texto2">
             <BootstrapCarousel.Caption>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
             </BootstrapCarousel.Caption>
-            </div>
-            <div className="carousel-buttons2">
-            <Button class="botonAm" >
-                READ MORE
-              </Button>
-              
-             
-              
-            </div>
-          
+          </div>
+          <div className="carousel-buttons2 ">
+            <Button variant="warning" className="rounded-pill" >
+              READ MORE
+            </Button>
+
+
+
+          </div>
+
         </BootstrapCarousel.Item>
 
         <BootstrapCarousel.Item>
+
           <img
             className="d-block w-100"
-            src="https://media.revistagq.com/photos/5dd65bccfed5480008f7082f/16:9/pass/baby-yoda.jpg"
+            src="https://lumiere-a.akamaihd.net/v1/images/swce-bignews-mon_fd3423e1.jpeg?region=0,0,1280,720&width=960"
             alt="Imagen 4"
           />
-           <div className="carousel-texto2">
+          <div className="carousel-texto2">
             <BootstrapCarousel.Caption>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
             </BootstrapCarousel.Caption>
-            </div>
-            <div className="carousel-buttons2">
-            <Button class="botonAm" >
-                FIND OUT NOW
-              </Button>
-              
-             
-              
-            </div>
-          
+          </div>
+          <div className="carousel-buttons2">
+            <Button variant="warning" className="rounded-pill" >
+              FIND OUT NOW
+            </Button>
+
+
+
+          </div>
+
         </BootstrapCarousel.Item>
+
       </BootstrapCarousel>
 
       <ol className="carousel-indicators">
@@ -151,14 +153,16 @@ const Carrusel = () => {
           onClick={() => handleSelect(3)}
         >
           <img
-            src="https://media.revistagq.com/photos/5dd65bccfed5480008f7082f/16:9/pass/baby-yoda.jpg"
+            src="https://lumiere-a.akamaihd.net/v1/images/swce-bignews-mon_fd3423e1.jpeg?region=0,0,1280,720&width=960"
             alt="Imagen 4"
           />
           <div className="image-caption">WHICH STAR WARS CHARACTER IS MOST LIKE YOUR DAD?</div>
         </div>
       </ol>
+
+
     </>
-    
+
   );
 };
 
