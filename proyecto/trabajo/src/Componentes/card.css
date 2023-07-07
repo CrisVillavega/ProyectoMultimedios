@@ -1,0 +1,68 @@
+.muesca {
+    width: 6rem;
+    height: 1rem;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+  }
+  
+  .muesca-diagonal-derecha {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1rem;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    transform-origin: bottom right;
+    transform: skew(45deg);
+    margin-left: 6rem;
+  }
+  
+  .muesca-diagonal-izquierda {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1rem;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    transform-origin: bottom right;
+    transform: skew(-45deg);
+    margin-left: -1rem;
+  }
+  .muescaT {
+    width: 6rem;
+    height: 1rem;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+  }
+  
+  .muesca-diagonal-derechaT {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1rem;
+    height: 100%;
+    background-color:transparent;
+    transform-origin: bottom right;
+    transform: skew(45deg);
+    margin-left: 6rem;
+  }
+  
+  .muesca-diagonal-izquierdaT {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1rem;
+    height: 100%;
+    background-color:chartreuse;
+    transform-origin: bottom right;
+    transform: skew(-45deg);
+    margin-left: -1rem;
+  }
+  .card {
+    font-size: 16px; /* Establece el tamaño deseado para las tarjetas */
+    border-bottom: none;
+  }
